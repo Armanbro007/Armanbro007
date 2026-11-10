@@ -1,31 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="410" height="250" viewBox="0 0 410 250" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="300" viewBox="0 0 630 300" role="img" aria-labelledby="t d">
   <title id="t">Khela Calendar</title>
-  <desc id="d">World Cup 2026 fixtures in Bangladesh time, as a calendar you subscribe to, in Bangla or English. Works with Google, Apple and Android</desc>
+  <desc id="d">WEB APP · SPORTS 104 World Cup matches, synced to any calendar Bangla or English, in Bangladesh time.</desc>
   <style>
-    :root { --bg:#f6f8fa; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --accent2:#6639ba; --chip:#ffffff; }
+    :root { --bg:#f6f8fa; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --accent2:#6639ba; --accent3:#b35900; --chip:#ffffff; }
     @media (prefers-color-scheme: dark) {
-      :root { --bg:#0d1117; --line:#30363d; --text:#e6edf3; --muted:#9198a1; --accent:#3fb9a0; --accent2:#a371f7; --chip:#161b22; }
+      :root { --bg:#0d1117; --line:#30363d; --text:#e6edf3; --muted:#9198a1; --accent:#3fb9a0; --accent2:#a371f7; --accent3:#f0883e; --chip:#161b22; }
     }
     .bg { fill:var(--bg); stroke:var(--line); }
-    .bar { fill:var(--accent); }
+    .bar { fill:var(--accent3); }
     .sans { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
     .mono { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
-    .kicker { fill:var(--accent); font-size:12px; letter-spacing:2px; font-weight:600; }
-    .title { fill:var(--text); font-size:24px; font-weight:700; }
+    .kicker { fill:var(--accent3); font-size:13px; letter-spacing:2.5px; font-weight:600; }
+    .title { fill:var(--text); font-size:28px; font-weight:700; }
+    .stat { fill:var(--accent3); font-size:50px; font-weight:700; letter-spacing:-1px; }
+    .statcap { fill:var(--text); font-size:16px; }
     .body { fill:var(--muted); font-size:15px; }
-    .stat { fill:var(--accent); font-size:15px; font-weight:600; }
     .chip { fill:var(--chip); stroke:var(--line); }
-    .chiptxt { fill:var(--muted); font-size:12px; }
+    .chiptxt { fill:var(--muted); font-size:12.5px; }
+    .dash { fill:none; stroke:var(--line); stroke-width:2; stroke-dasharray:8 8; }
+    .plus { fill:var(--muted); font-size:64px; font-weight:300; }
+    .fade { animation:fade .7s ease-out both; }
+    @keyframes fade { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:none; } }
+    @media (prefers-reduced-motion: reduce) { .fade { animation:none; } }
   </style>
-  <rect class="bg" x="0.5" y="0.5" width="409" height="249" rx="12"/>
-  <rect class="bar" x="0.5" y="0.5" width="6" height="249" rx="3"/>
-  <text class="sans kicker" x="28" y="40">SHIPPED · WEB</text>
-  <text class="sans title" x="28" y="74">Khela Calendar</text>
-  <text class="sans body" x="28" y="106">World Cup 2026 fixtures in Bangladesh</text>
-  <text class="sans body" x="28" y="128">time, as a calendar you subscribe to,</text>
-  <text class="sans body" x="28" y="150">in Bangla or English.</text>
-  <text class="sans stat" x="28" y="180">Works with Google, Apple and Android</text>
-  <rect class="chip" x="28" y="204" width="93" height="26" rx="13"/><text class="mono chiptxt" x="38" y="221">JavaScript</text>
-  <rect class="chip" x="129" y="204" width="49" height="26" rx="13"/><text class="mono chiptxt" x="139" y="221">iCal</text>
-  <rect class="chip" x="186" y="204" width="63" height="26" rx="13"/><text class="mono chiptxt" x="196" y="221">Vercel</text>
+  <rect class="bg" x="0.5" y="0.5" width="629" height="299" rx="14"/>
+  <rect class="bar" x="0.5" y="24" width="5" height="252" rx="2.5"/>
+  <g class="fade">
+  <text class="sans kicker" x="34" y="48">WEB APP · SPORTS</text>
+  <text class="sans title" x="34" y="88">Khela Calendar</text>
+  <text class="sans stat" x="34" y="152">104</text>
+  <text class="sans statcap" x="34" y="180">World Cup matches, synced to any calendar</text>
+  <text class="sans body" x="34" y="210">Bangla or English, in Bangladesh time.</text>
+  <rect class="chip" x="34" y="252" width="99" height="28" rx="14"/><text class="mono chiptxt" x="45" y="270">JavaScript</text>
+  <rect class="chip" x="141" y="252" width="52" height="28" rx="14"/><text class="mono chiptxt" x="152" y="270">iCal</text>
+  <rect class="chip" x="201" y="252" width="99" height="28" rx="14"/><text class="mono chiptxt" x="212" y="270">Serverless</text>
+  <rect class="chip" x="308" y="252" width="68" height="28" rx="14"/><text class="mono chiptxt" x="319" y="270">Vercel</text>
+  </g>
 </svg>

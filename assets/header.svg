@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="t d">
   <title id="t">Arman Rahman</title>
-  <desc id="d">I build AI that is small enough to actually use. CSE graduate, East Delta University. Next: MSc in Germany.</desc>
+  <desc id="d">I turn AI ideas into tools people actually use. Computer Science and Engineering, East Delta University.</desc>
   <style>
     :root { --bg:#f6f8fa; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --accent2:#6639ba; --node:#ffffff; }
     @media (prefers-color-scheme: dark) {
@@ -33,11 +33,11 @@
   <rect class="bg" x="0.5" y="0.5" width="1279" height="339" rx="14"/>
 
   <!-- left: identity -->
-  <text class="sans eyebrow" x="64" y="92">AI &amp; AUTOMATION · BANGLADESH → GERMANY</text>
+  <text class="sans eyebrow" x="64" y="92">AI · COMPUTER VISION · WEB · CHATTOGRAM, BANGLADESH</text>
   <text class="sans name" x="62" y="160">Arman Rahman</text>
-  <text class="sans tag" x="64" y="210">I build AI that's <tspan class="hl">small enough to actually use</tspan>.</text>
-  <text class="mono meta" x="64" y="262">$ thesis --model DeFakeNet-Lite --params 1.9M --accuracy 98.75%<tspan class="cursor" dx="6">▍</tspan></text>
-  <text class="sans meta" x="64" y="296">BSc CSE, East Delta University · next: MSc in Germany</text>
+  <text class="sans tag" x="64" y="210">I turn AI ideas into <tspan class="hl">tools people actually use</tspan>.</text>
+  <text class="mono meta" x="64" y="262">$ ls projects/   defakenet-lite  prescription-digitizer  khela-calendar<tspan class="cursor" dx="6">▍</tspan></text>
+  <text class="sans meta" x="64" y="296">Computer Science &amp; Engineering, East Delta University</text>
 
   <!-- right: a tiny network that "classifies" a face as real/fake -->
   <g transform="translate(830,58)">
@@ -56,7 +56,7 @@
     <circle class="n" cx="150" cy="10" r="9"/><circle class="n on" cx="150" cy="80" r="9"/><circle class="n" cx="150" cy="150" r="9"/><circle class="n" cx="150" cy="220" r="9"/>
     <circle class="n on" cx="280" cy="60" r="9"/><circle class="n" cx="280" cy="160" r="9"/>
     <circle class="out" cx="370" cy="110" r="13"/>
-    <text class="mono lbl" x="-6" y="252">face.png</text>
-    <text class="mono lbl ok" x="370" y="150" text-anchor="middle">REAL 0.99</text>
+    <text class="mono lbl" x="-2" y="252">idea</text>
+    <text class="mono lbl ok" x="370" y="150" text-anchor="middle">SHIPPED</text>
   </g>
 </svg>
