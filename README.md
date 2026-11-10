@@ -5,7 +5,7 @@
 | | |
 | --- | --- |
 | **What I do** | Build practical AI and web tools, and design the visuals and content that explain them |
-| **Built so far** | A blood donor website, a handwritten prescription reader, a World Cup calendar app, and an AI-generated face detector |
+| **Built so far** | A blood donor website, a handwritten prescription reader, a World Cup match-reminder app, and an AI-generated face detector |
 | **Experience** | 4+ years of remote work for Web3 teams: Poolz Finance, Node Monster, Mind AI |
 | **Education** | BSc in Computer Science & Engineering, East Delta University (final year) · Diploma in Computer Technology |
 | **Languages** | Bengali (native) · English · Hindi · Urdu |
@@ -16,7 +16,7 @@
 <p>
 <a href="https://github.com/Armanbro007/DeFakeNet-Lite"><img src="assets/card-defakenet.svg" alt="DeFakeNet-Lite: 98.75% accuracy at spotting AI-generated faces" width="49%"></a>
 <a href="https://github.com/Armanbro007/DOCTORPR"><img src="assets/card-prescription.svg" alt="Prescription Digitizer: reads handwritten medicine names" width="49%"></a>
-<a href="https://github.com/Armanbro007/khela-calendar"><img src="assets/card-khela.svg" alt="Khela Calendar: 104 World Cup matches synced to any calendar" width="49%"></a>
+<a href="https://github.com/Armanbro007/khela-calendar"><img src="assets/card-khela.svg" alt="Khela Calendar: World Cup matches added to your phone calendar, at your local kickoff time" width="49%"></a>
 <a href="https://github.com/Armanbro007/blood"><img src="assets/card-bloodmate.svg" alt="BloodMate: a website for blood donors" width="49%"></a>
 </p>
 
@@ -37,7 +37,7 @@ flowchart LR
     D --> E
 ```
 
-**Khela Calendar** · World Cup 2026 is played in North America, so most matches fall at night in Bangladesh. This app shows all 104 matches in Bangladesh time and creates a calendar feed you subscribe to once, in Bangla or English. [Open the app](https://khela-calendar.vercel.app)
+**Khela Calendar** · Pick your favourite teams or matches on the website and tap Add to calendar, on Android or iPhone. Every match lands in your phone's calendar at the correct kickoff time for wherever you are, so the calendar's reminders and widgets pop up on time. No more time-zone mix-ups or missed matches. Works in Bangla or English. [Open the app](https://khela-calendar.vercel.app)
 
 **BloodMate** · my first full website: donor sign-up with blood group, a news feed, login and contact pages, built with HTML, CSS, Bootstrap and JavaScript. [See the code](https://github.com/Armanbro007/blood)
 

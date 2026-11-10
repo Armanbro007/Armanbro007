@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="630" height="300" viewBox="0 0 630 300" role="img" aria-labelledby="t d">
   <title id="t">Khela Calendar</title>
-  <desc id="d">WEB APP · SPORTS 104 World Cup matches, synced to any calendar Bangla or English, in Bangladesh time.</desc>
+  <desc id="d">WEB APP · SPORTS 104 World Cup matches, straight to your phone Reminders at your own local kickoff time.</desc>
   <style>
     :root { --bg:#f6f8fa; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --accent2:#6639ba; --accent3:#b35900; --accent4:#cf222e; --chip:#ffffff; }
     @media (prefers-color-scheme: dark) {
@@ -29,8 +29,8 @@
   <text class="sans kicker" x="34" y="48">WEB APP · SPORTS</text>
   <text class="sans title" x="34" y="88">Khela Calendar</text>
   <text class="sans stat" x="34" y="152">104</text>
-  <text class="sans statcap" x="34" y="180">World Cup matches, synced to any calendar</text>
-  <text class="sans body" x="34" y="210">Bangla or English, in Bangladesh time.</text>
+  <text class="sans statcap" x="34" y="180">World Cup matches, straight to your phone</text>
+  <text class="sans body" x="34" y="210">Reminders at your own local kickoff time.</text>
   <rect class="chip" x="34" y="252" width="99" height="28" rx="14"/><text class="mono chiptxt" x="45" y="270">JavaScript</text>
   <rect class="chip" x="141" y="252" width="52" height="28" rx="14"/><text class="mono chiptxt" x="152" y="270">iCal</text>
   <rect class="chip" x="201" y="252" width="99" height="28" rx="14"/><text class="mono chiptxt" x="212" y="270">Serverless</text>
