@@ -17,7 +17,7 @@
 <a href="https://github.com/Armanbro007/DeFakeNet-Lite"><img src="assets/card-defakenet.svg" alt="DeFakeNet-Lite: 98.75% accuracy at spotting AI-generated faces" width="49%"></a>
 <a href="https://github.com/Armanbro007/DOCTORPR"><img src="assets/card-prescription.svg" alt="Prescription Digitizer: reads handwritten medicine names" width="49%"></a>
 <a href="https://github.com/Armanbro007/khela-calendar"><img src="assets/card-khela.svg" alt="Khela Calendar: World Cup matches added to your phone calendar, at your local kickoff time" width="49%"></a>
-<a href="https://github.com/Armanbro007/blood"><img src="assets/card-bloodmate.svg" alt="BloodMate: a website for blood donors" width="49%"></a>
+<a href="https://github.com/Armanbro007/blood"><img src="assets/card-bloodmate.svg" alt="BloodMate: find blood donors across 64 districts, post urgent requests, donor dashboard" width="49%"></a>
 </p>
 
 <details>
@@ -39,7 +39,7 @@ flowchart LR
 
 **Khela Calendar** · Pick your favourite teams or matches on the website and tap Add to calendar, on Android or iPhone. Every match lands in your phone's calendar at the correct kickoff time for wherever you are, so the calendar's reminders and widgets pop up on time. No more time-zone mix-ups or missed matches. Works in Bangla or English. [Open the app](https://khela-calendar.vercel.app)
 
-**BloodMate** · my first full website: donor sign-up with blood group, a news feed, login and contact pages, built with HTML, CSS, Bootstrap and JavaScript. [See the code](https://github.com/Armanbro007/blood)
+**BloodMate** · a blood donor website for Bangladesh. Search donors by blood group and district (including every compatible group), post urgent blood requests, and use a donor dashboard that counts down to your next eligible donation. Started in 2023 as my first website and rebuilt in 2026 with a new design and working features; data is stored in the browser for now. [See the code](https://github.com/Armanbro007/blood)
 
 </details>
 

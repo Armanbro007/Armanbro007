@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="630" height="300" viewBox="0 0 630 300" role="img" aria-labelledby="t d">
   <title id="t">BloodMate</title>
-  <desc id="d">WEB · HEALTH 2023 my first full website, for blood donors Donor sign-up with blood group, news feed and login.</desc>
+  <desc id="d">WEB · HEALTH 64 districts searchable for matching blood donors. Donor search, urgent requests and a donor dashboard.</desc>
   <style>
     :root { --bg:#f6f8fa; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --accent2:#6639ba; --accent3:#b35900; --accent4:#cf222e; --chip:#ffffff; }
     @media (prefers-color-scheme: dark) {
@@ -28,12 +28,12 @@
   <g class="fade">
   <text class="sans kicker" x="34" y="48">WEB · HEALTH</text>
   <text class="sans title" x="34" y="88">BloodMate</text>
-  <text class="sans stat" x="34" y="152">2023</text>
-  <text class="sans statcap" x="34" y="180">my first full website, for blood donors</text>
-  <text class="sans body" x="34" y="210">Donor sign-up with blood group, news feed and login.</text>
+  <text class="sans stat" x="34" y="152">64</text>
+  <text class="sans statcap" x="34" y="180">districts to search for matching donors</text>
+  <text class="sans body" x="34" y="210">Urgent requests, donor dashboard, light/dark.</text>
   <rect class="chip" x="34" y="252" width="52" height="28" rx="14"/><text class="mono chiptxt" x="45" y="270">HTML</text>
   <rect class="chip" x="94" y="252" width="45" height="28" rx="14"/><text class="mono chiptxt" x="105" y="270">CSS</text>
-  <rect class="chip" x="147" y="252" width="91" height="28" rx="14"/><text class="mono chiptxt" x="158" y="270">Bootstrap</text>
-  <rect class="chip" x="246" y="252" width="99" height="28" rx="14"/><text class="mono chiptxt" x="257" y="270">JavaScript</text>
+  <rect class="chip" x="147" y="252" width="99" height="28" rx="14"/><text class="mono chiptxt" x="158" y="270">JavaScript</text>
+  <rect class="chip" x="254" y="252" width="99" height="28" rx="14"/><text class="mono chiptxt" x="265" y="270">Responsive</text>
   </g>
 </svg>
