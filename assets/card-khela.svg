@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="250" viewBox="0 0 410 250" role="img" aria-labelledby="t d">
+  <title id="t">Khela Calendar</title>
+  <desc id="d">World Cup 2026 fixtures in Bangladesh time, as a calendar you subscribe to, in Bangla or English. Works with Google, Apple and Android</desc>
+  <style>
+    :root { --bg:#f6f8fa; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --accent2:#6639ba; --chip:#ffffff; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0d1117; --line:#30363d; --text:#e6edf3; --muted:#9198a1; --accent:#3fb9a0; --accent2:#a371f7; --chip:#161b22; }
+    }
+    .bg { fill:var(--bg); stroke:var(--line); }
+    .bar { fill:var(--accent); }
+    .sans { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+    .mono { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+    .kicker { fill:var(--accent); font-size:12px; letter-spacing:2px; font-weight:600; }
+    .title { fill:var(--text); font-size:24px; font-weight:700; }
+    .body { fill:var(--muted); font-size:15px; }
+    .stat { fill:var(--accent); font-size:15px; font-weight:600; }
+    .chip { fill:var(--chip); stroke:var(--line); }
+    .chiptxt { fill:var(--muted); font-size:12px; }
+  </style>
+  <rect class="bg" x="0.5" y="0.5" width="409" height="249" rx="12"/>
+  <rect class="bar" x="0.5" y="0.5" width="6" height="249" rx="3"/>
+  <text class="sans kicker" x="28" y="40">SHIPPED · WEB</text>
+  <text class="sans title" x="28" y="74">Khela Calendar</text>
+  <text class="sans body" x="28" y="106">World Cup 2026 fixtures in Bangladesh</text>
+  <text class="sans body" x="28" y="128">time, as a calendar you subscribe to,</text>
+  <text class="sans body" x="28" y="150">in Bangla or English.</text>
+  <text class="sans stat" x="28" y="180">Works with Google, Apple and Android</text>
+  <rect class="chip" x="28" y="204" width="93" height="26" rx="13"/><text class="mono chiptxt" x="38" y="221">JavaScript</text>
+  <rect class="chip" x="129" y="204" width="49" height="26" rx="13"/><text class="mono chiptxt" x="139" y="221">iCal</text>
+  <rect class="chip" x="186" y="204" width="63" height="26" rx="13"/><text class="mono chiptxt" x="196" y="221">Vercel</text>
+</svg>

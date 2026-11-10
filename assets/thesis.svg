@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="t d">
+  <title id="t">DeFakeNet-Lite, my BSc thesis, in numbers</title>
+  <desc id="d">98.75 percent accuracy on RVF10K. 13.5 times fewer parameters than DeFakeNet (1.90 million vs 25.66 million). 3 times faster on CPU. 3.87 MB model file. Beats the published paper's 91.95 percent.</desc>
+  <style>
+    :root { --bg:#f6f8fa; --tile:#ffffff; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --accent2:#6639ba; --base:#afb8c1; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0d1117; --tile:#161b22; --line:#30363d; --text:#e6edf3; --muted:#9198a1; --accent:#3fb9a0; --accent2:#a371f7; --base:#484f58; }
+    }
+    .bg { fill:var(--bg); stroke:var(--line); }
+    .tile { fill:var(--tile); stroke:var(--line); }
+    .sans { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+    .mono { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+    .eyebrow { fill:var(--accent); font-size:14px; letter-spacing:3px; font-weight:600; }
+    .h { fill:var(--text); font-size:26px; font-weight:700; }
+    .big { fill:var(--text); font-size:46px; font-weight:700; letter-spacing:-1px; }
+    .big.acc { fill:var(--accent); }
+    .cap { fill:var(--muted); font-size:15px; }
+    .barlbl { fill:var(--muted); font-size:14px; }
+    .barval { fill:var(--text); font-size:14px; font-weight:600; }
+    .base { fill:var(--base); }
+    .lite { fill:var(--accent); }
+    .grow { transform-box:fill-box; transform-origin:left center; animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both; }
+    .grow.d2 { animation-delay:.5s; }
+    .fade { animation:fade .6s ease-out both; }
+    .f1 { animation-delay:.1s } .f2 { animation-delay:.25s } .f3 { animation-delay:.4s } .f4 { animation-delay:.55s }
+    @keyframes grow { from { transform:scaleX(0); } to { transform:scaleX(1); } }
+    @keyframes fade { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:none; } }
+    @media (prefers-reduced-motion: reduce) { .grow,.fade { animation:none; } }
+  </style>
+
+  <rect class="bg" x="0.5" y="0.5" width="1279" height="379" rx="14"/>
+  <text class="sans eyebrow" x="48" y="58">BSC THESIS · NOVEMBER 2026</text>
+  <text class="sans h" x="48" y="96">DeFakeNet-Lite: spotting AI-generated faces with a model that fits on a phone</text>
+
+  <g class="fade f1"><rect class="tile" x="48"  y="124" width="278" height="120" rx="10"/>
+    <text class="sans big acc" x="72" y="186">98.75%</text><text class="sans cap" x="72" y="220">accuracy (paper: 91.95%)</text></g>
+  <g class="fade f2"><rect class="tile" x="346" y="124" width="278" height="120" rx="10"/>
+    <text class="sans big" x="370" y="186">13.5×</text><text class="sans cap" x="370" y="220">fewer parameters</text></g>
+  <g class="fade f3"><rect class="tile" x="644" y="124" width="278" height="120" rx="10"/>
+    <text class="sans big" x="668" y="186">3×</text><text class="sans cap" x="668" y="220">faster on a plain CPU</text></g>
+  <g class="fade f4"><rect class="tile" x="942" y="124" width="290" height="120" rx="10"/>
+    <text class="sans big" x="966" y="186">3.87 MB</text><text class="sans cap" x="966" y="220">model file, ready for mobile</text></g>
+
+  <!-- parameter comparison, bars to scale: 25.66M -> 900px, 1.90M -> 66.6px -->
+  <text class="sans barlbl" x="48" y="290">DeFakeNet (published)</text>
+  <rect class="base grow" x="232" y="276" width="900" height="18" rx="4"/>
+  <text class="mono barval" x="1142" y="290">25.66 M</text>
+  <text class="sans barlbl" x="48" y="330">DeFakeNet-Lite (mine)</text>
+  <rect class="lite grow d2" x="232" y="316" width="67" height="18" rx="4"/>
+  <text class="mono barval" x="309" y="330">1.90 M parameters, higher accuracy</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="250" viewBox="0 0 410 250" role="img" aria-labelledby="t d">
+  <title id="t">DeFakeNet-Lite</title>
+  <desc id="d">Tells real face photos from StyleGAN fakes. Beat a 2025 paper with a model 13.5× smaller, tested over 3 seeds. 98.75% accuracy · 1.9M params</desc>
+  <style>
+    :root { --bg:#f6f8fa; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --accent2:#6639ba; --chip:#ffffff; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0d1117; --line:#30363d; --text:#e6edf3; --muted:#9198a1; --accent:#3fb9a0; --accent2:#a371f7; --chip:#161b22; }
+    }
+    .bg { fill:var(--bg); stroke:var(--line); }
+    .bar { fill:var(--accent); }
+    .sans { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+    .mono { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+    .kicker { fill:var(--accent); font-size:12px; letter-spacing:2px; font-weight:600; }
+    .title { fill:var(--text); font-size:24px; font-weight:700; }
+    .body { fill:var(--muted); font-size:15px; }
+    .stat { fill:var(--accent); font-size:15px; font-weight:600; }
+    .chip { fill:var(--chip); stroke:var(--line); }
+    .chiptxt { fill:var(--muted); font-size:12px; }
+  </style>
+  <rect class="bg" x="0.5" y="0.5" width="409" height="249" rx="12"/>
+  <rect class="bar" x="0.5" y="0.5" width="6" height="249" rx="3"/>
+  <text class="sans kicker" x="28" y="40">THESIS · COMPUTER VISION</text>
+  <text class="sans title" x="28" y="74">DeFakeNet-Lite</text>
+  <text class="sans body" x="28" y="106">Tells real face photos from StyleGAN fakes.</text>
+  <text class="sans body" x="28" y="128">Beat a 2025 paper with a model 13.5×</text>
+  <text class="sans body" x="28" y="150">smaller, tested over 3 seeds.</text>
+  <text class="sans stat" x="28" y="180">98.75% accuracy · 1.9M params</text>
+  <rect class="chip" x="28" y="204" width="93" height="26" rx="13"/><text class="mono chiptxt" x="38" y="221">TensorFlow</text>
+  <rect class="chip" x="129" y="204" width="100" height="26" rx="13"/><text class="mono chiptxt" x="139" y="221">MobileNetV3</text>
+  <rect class="chip" x="237" y="204" width="63" height="26" rx="13"/><text class="mono chiptxt" x="247" y="221">Kaggle</text>
+</svg>

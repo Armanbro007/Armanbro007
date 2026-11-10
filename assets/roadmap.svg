@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="230" viewBox="0 0 1280 230" role="img" aria-labelledby="t d">
+  <title id="t">My road so far, and what's next</title>
+  <desc id="d">May 2026: Prescription Digitizer. July 2026: shipped Khela Calendar. November 2026: BSc thesis DeFakeNet-Lite. Now: learning AI automation and German. December 2026: IELTS. 2027: MSc in Germany.</desc>
+  <style>
+    :root { --bg:#f6f8fa; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --node:#ffffff; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0d1117; --line:#30363d; --text:#e6edf3; --muted:#9198a1; --accent:#3fb9a0; --node:#0d1117; }
+    }
+    .bg { fill:var(--bg); stroke:var(--line); }
+    .sans { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+    .eyebrow { fill:var(--accent); font-size:14px; letter-spacing:3px; font-weight:600; }
+    .track { stroke:var(--line); stroke-width:4; stroke-linecap:round; }
+    .done { stroke:var(--accent); stroke-width:4; stroke-linecap:round; }
+    .future { stroke:var(--line); stroke-width:4; stroke-dasharray:2 10; stroke-linecap:round; }
+    .dot { fill:var(--accent); }
+    .todo { fill:var(--node); stroke:var(--muted); stroke-width:2.5; }
+    .ring { fill:none; stroke:var(--accent); stroke-width:2.5; transform-box:fill-box; transform-origin:center; animation:ping 2s ease-out infinite; }
+    .when { fill:var(--muted); font-size:13px; font-weight:600; letter-spacing:1px; }
+    .when.now { fill:var(--accent); }
+    .what { fill:var(--text); font-size:16px; font-weight:600; }
+    .sub { fill:var(--muted); font-size:13px; }
+    @keyframes ping { 0% { transform:scale(1); opacity:.9; } 100% { transform:scale(2.6); opacity:0; } }
+    @media (prefers-reduced-motion: reduce) { .ring { animation:none; opacity:0; } }
+  </style>
+
+  <rect class="bg" x="0.5" y="0.5" width="1279" height="229" rx="14"/>
+  <text class="sans eyebrow" x="48" y="52">THE ROAD SO FAR · AND WHAT'S NEXT</text>
+
+  <line class="done"   x1="110" y1="118" x2="760"  y2="118"/>
+  <line class="future" x1="760" y1="118" x2="1170" y2="118"/>
+
+  <g text-anchor="middle">
+    <circle class="dot" cx="110" cy="118" r="9"/>
+    <text class="sans when" x="110" y="96">MAY 2026</text>
+    <text class="sans what" x="110" y="152">Prescription Digitizer</text><text class="sans sub" x="110" y="172">handwriting → text</text>
+
+    <circle class="dot" cx="327" cy="118" r="9"/>
+    <text class="sans when" x="327" y="96">JUL 2026</text>
+    <text class="sans what" x="327" y="152">Khela Calendar</text><text class="sans sub" x="327" y="172">shipped for the World Cup</text>
+
+    <circle class="dot" cx="544" cy="118" r="9"/>
+    <text class="sans when" x="544" y="96">NOV 2026</text>
+    <text class="sans what" x="544" y="152">BSc thesis</text><text class="sans sub" x="544" y="172">DeFakeNet-Lite, 98.75%</text>
+
+    <circle class="ring" cx="760" cy="118" r="9"/>
+    <circle class="dot" cx="760" cy="118" r="9"/>
+    <text class="sans when now" x="760" y="96">NOW</text>
+    <text class="sans what" x="760" y="152">Learning AI automation</text><text class="sans sub" x="760" y="172">and German</text>
+
+    <circle class="todo" cx="965" cy="118" r="9"/>
+    <text class="sans when" x="965" y="96">DEC 2026</text>
+    <text class="sans what" x="965" y="152">IELTS</text><text class="sans sub" x="965" y="172">target 7+</text>
+
+    <circle class="todo" cx="1170" cy="118" r="9"/>
+    <text class="sans when" x="1170" y="96">2027</text>
+    <text class="sans what" x="1170" y="152">MSc in Germany</text><text class="sans sub" x="1170" y="172">open to Werkstudent roles</text>
+  </g>
+</svg>
