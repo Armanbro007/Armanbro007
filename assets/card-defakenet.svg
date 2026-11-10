@@ -2,9 +2,9 @@
   <title id="t">DeFakeNet-Lite</title>
   <desc id="d">BSC THESIS · COMPUTER VISION 98.75% accuracy at spotting AI-generated faces Beat a 2025 published model with one 13.5× smaller.</desc>
   <style>
-    :root { --bg:#f6f8fa; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --accent2:#6639ba; --accent3:#b35900; --chip:#ffffff; }
+    :root { --bg:#f6f8fa; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --accent2:#6639ba; --accent3:#b35900; --accent4:#cf222e; --chip:#ffffff; }
     @media (prefers-color-scheme: dark) {
-      :root { --bg:#0d1117; --line:#30363d; --text:#e6edf3; --muted:#9198a1; --accent:#3fb9a0; --accent2:#a371f7; --accent3:#f0883e; --chip:#161b22; }
+      :root { --bg:#0d1117; --line:#30363d; --text:#e6edf3; --muted:#9198a1; --accent:#3fb9a0; --accent2:#a371f7; --accent3:#f0883e; --accent4:#f85149; --chip:#161b22; }
     }
     .bg { fill:var(--bg); stroke:var(--line); }
     .bar { fill:var(--accent); }

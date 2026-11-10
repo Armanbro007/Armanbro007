@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="230" viewBox="0 0 1280 230" role="img" aria-labelledby="t d">
   <title id="t">What I've built so far</title>
-  <desc id="d">May 2026: Prescription Digitizer. July 2026: Khela Calendar. November 2026: BSc thesis, DeFakeNet-Lite. More to come.</desc>
+  <desc id="d">2023: BloodMate. May 2026: Prescription Digitizer. July 2026: Khela Calendar. November 2026: BSc thesis, DeFakeNet-Lite. More to come.</desc>
   <style>
-    :root { --bg:#f6f8fa; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --accent2:#6639ba; --accent3:#b35900; --node:#ffffff; }
+    :root { --bg:#f6f8fa; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --accent2:#6639ba; --accent3:#b35900; --accent4:#cf222e; --node:#ffffff; }
     @media (prefers-color-scheme: dark) {
-      :root { --bg:#0d1117; --line:#30363d; --text:#e6edf3; --muted:#9198a1; --accent:#3fb9a0; --accent2:#a371f7; --accent3:#f0883e; --node:#0d1117; }
+      :root { --bg:#0d1117; --line:#30363d; --text:#e6edf3; --muted:#9198a1; --accent:#3fb9a0; --accent2:#a371f7; --accent3:#f0883e; --accent4:#f85149; --node:#0d1117; }
     }
     .bg { fill:var(--bg); stroke:var(--line); }
     .sans { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
     .eyebrow { fill:var(--accent); font-size:14px; letter-spacing:3px; font-weight:600; }
     .done { stroke:var(--accent); stroke-width:4; stroke-linecap:round; stroke-dasharray:1000; stroke-dashoffset:1000; animation:draw 1.6s ease-out forwards; }
     .future { stroke:var(--line); stroke-width:4; stroke-dasharray:2 10; stroke-linecap:round; }
-    .d1 { fill:var(--accent2); } .d2 { fill:var(--accent3); } .d3 { fill:var(--accent); }
+    .d1 { fill:var(--accent2); } .d2 { fill:var(--accent3); } .d3 { fill:var(--accent); } .d4 { fill:var(--accent4); }
     .todo { fill:var(--node); stroke:var(--muted); stroke-width:2.5; }
     .ring { fill:none; stroke:var(--muted); stroke-width:2; transform-box:fill-box; transform-origin:center; animation:ping 2.2s ease-out infinite; }
     .when { fill:var(--muted); font-size:13px; font-weight:600; letter-spacing:1px; }
@@ -25,25 +25,29 @@
   <rect class="bg" x="0.5" y="0.5" width="1279" height="229" rx="14"/>
   <text class="sans eyebrow" x="48" y="52">WHAT I'VE BUILT SO FAR</text>
 
-  <line class="done"   x1="150" y1="118" x2="910"  y2="118"/>
-  <line class="future" x1="910" y1="118" x2="1140" y2="118"/>
+  <line class="done"   x1="130" y1="118" x2="890"  y2="118"/>
+  <line class="future" x1="890" y1="118" x2="1150" y2="118"/>
 
   <g text-anchor="middle">
-    <circle class="d1" cx="150" cy="118" r="10"/>
-    <text class="sans when" x="150" y="94">MAY 2026</text>
-    <text class="sans what" x="150" y="154">Prescription Digitizer</text><text class="sans sub" x="150" y="175">handwriting to text</text>
+    <circle class="d4" cx="130" cy="118" r="10"/>
+    <text class="sans when" x="130" y="94">2023</text>
+    <text class="sans what" x="130" y="154">BloodMate</text><text class="sans sub" x="130" y="175">first full website</text>
 
-    <circle class="d2" cx="530" cy="118" r="10"/>
-    <text class="sans when" x="530" y="94">JUL 2026</text>
-    <text class="sans what" x="530" y="154">Khela Calendar</text><text class="sans sub" x="530" y="175">World Cup calendar for Bangladesh</text>
+    <circle class="d1" cx="383" cy="118" r="10"/>
+    <text class="sans when" x="383" y="94">MAY 2026</text>
+    <text class="sans what" x="383" y="154">Prescription Digitizer</text><text class="sans sub" x="383" y="175">handwriting to text</text>
 
-    <circle class="d3" cx="910" cy="118" r="10"/>
-    <text class="sans when" x="910" y="94">NOV 2026</text>
-    <text class="sans what" x="910" y="154">BSc thesis: DeFakeNet-Lite</text><text class="sans sub" x="910" y="175">AI-generated face detection</text>
+    <circle class="d2" cx="637" cy="118" r="10"/>
+    <text class="sans when" x="637" y="94">JUL 2026</text>
+    <text class="sans what" x="637" y="154">Khela Calendar</text><text class="sans sub" x="637" y="175">World Cup calendar for Bangladesh</text>
 
-    <circle class="ring" cx="1140" cy="118" r="9"/>
-    <circle class="todo" cx="1140" cy="118" r="9"/>
-    <text class="sans when" x="1140" y="94">NEXT</text>
-    <text class="sans what" x="1140" y="154">More on the way</text>
+    <circle class="d3" cx="890" cy="118" r="10"/>
+    <text class="sans when" x="890" y="94">NOV 2026</text>
+    <text class="sans what" x="890" y="154">BSc thesis: DeFakeNet-Lite</text><text class="sans sub" x="890" y="175">AI-generated face detection</text>
+
+    <circle class="ring" cx="1150" cy="118" r="9"/>
+    <circle class="todo" cx="1150" cy="118" r="9"/>
+    <text class="sans when" x="1150" y="94">NEXT</text>
+    <text class="sans what" x="1150" y="154">More on the way</text>
   </g>
 </svg>

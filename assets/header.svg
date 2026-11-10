@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="t d">
   <title id="t">Arman Rahman</title>
-  <desc id="d">I turn AI ideas into tools people actually use. Computer Science and Engineering, East Delta University.</desc>
+  <desc id="d">I turn AI ideas into tools people actually use. CSE at East Delta University, with 4+ years of remote work for Web3 teams.</desc>
   <style>
     :root { --bg:#f6f8fa; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --accent2:#6639ba; --node:#ffffff; }
     @media (prefers-color-scheme: dark) {
@@ -33,11 +33,11 @@
   <rect class="bg" x="0.5" y="0.5" width="1279" height="339" rx="14"/>
 
   <!-- left: identity -->
-  <text class="sans eyebrow" x="64" y="92">AI · COMPUTER VISION · WEB · CHATTOGRAM, BANGLADESH</text>
+  <text class="sans eyebrow" x="64" y="92">AI · WEB · DESIGN · CHATTOGRAM, BANGLADESH</text>
   <text class="sans name" x="62" y="160">Arman Rahman</text>
   <text class="sans tag" x="64" y="210">I turn AI ideas into <tspan class="hl">tools people actually use</tspan>.</text>
-  <text class="mono meta" x="64" y="262">$ ls projects/   defakenet-lite  prescription-digitizer  khela-calendar<tspan class="cursor" dx="6">▍</tspan></text>
-  <text class="sans meta" x="64" y="296">Computer Science &amp; Engineering, East Delta University</text>
+  <text class="mono meta" x="64" y="262">$ ls projects/  bloodmate  prescription-digitizer  khela-calendar  defakenet-lite<tspan class="cursor" dx="6">▍</tspan></text>
+  <text class="sans meta" x="64" y="296">CSE at East Delta University · 4+ years of remote work for Web3 teams</text>
 
   <!-- right: a tiny network that "classifies" a face as real/fake -->
   <g transform="translate(830,58)">

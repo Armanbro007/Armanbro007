@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="630" height="300" viewBox="0 0 630 300" role="img" aria-labelledby="t d">
   <title id="t">Prescription Digitizer</title>
-  <desc id="d">HEALTH · DOCUMENT AI 4,680 handwritten prescription samples, 78 medicines Reads medicine names, flags unsure reads for a pharmacist.</desc>
+  <desc id="d">HEALTH · DOCUMENT AI · TEAM PROJECT 4,680 handwritten prescription samples, 78 medicines Reads medicine names, flags unsure reads for a pharmacist.</desc>
   <style>
-    :root { --bg:#f6f8fa; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --accent2:#6639ba; --accent3:#b35900; --chip:#ffffff; }
+    :root { --bg:#f6f8fa; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --accent:#0e7c66; --accent2:#6639ba; --accent3:#b35900; --accent4:#cf222e; --chip:#ffffff; }
     @media (prefers-color-scheme: dark) {
-      :root { --bg:#0d1117; --line:#30363d; --text:#e6edf3; --muted:#9198a1; --accent:#3fb9a0; --accent2:#a371f7; --accent3:#f0883e; --chip:#161b22; }
+      :root { --bg:#0d1117; --line:#30363d; --text:#e6edf3; --muted:#9198a1; --accent:#3fb9a0; --accent2:#a371f7; --accent3:#f0883e; --accent4:#f85149; --chip:#161b22; }
     }
     .bg { fill:var(--bg); stroke:var(--line); }
     .bar { fill:var(--accent2); }
@@ -26,7 +26,7 @@
   <rect class="bg" x="0.5" y="0.5" width="629" height="299" rx="14"/>
   <rect class="bar" x="0.5" y="24" width="5" height="252" rx="2.5"/>
   <g class="fade">
-  <text class="sans kicker" x="34" y="48">HEALTH · DOCUMENT AI</text>
+  <text class="sans kicker" x="34" y="48">HEALTH · DOCUMENT AI · TEAM PROJECT</text>
   <text class="sans title" x="34" y="88">Prescription Digitizer</text>
   <text class="sans stat" x="34" y="152">4,680</text>
   <text class="sans statcap" x="34" y="180">handwritten prescription samples, 78 medicines</text>
