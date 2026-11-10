@@ -53,4 +53,3 @@ flowchart LR
 **Web:** HTML · CSS · JavaScript · Bootstrap · PHP · MySQL · Streamlit · Vercel · Git
 **Design and video:** Figma · Adobe Premiere Pro · After Effects · Photoshop · Canva
 
-<sub>Every graphic on this page is hand-made for this profile and follows your light or dark theme.</sub>
